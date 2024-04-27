@@ -1,0 +1,15 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1; /* Para que ocupe todo el espacio disponible */
+  display: flex;
+  justify-content: center; /* Para centrar horizontalmente los elementos */
+  align-items: center; /* Para centrar verticalmente los elementos */
+}
